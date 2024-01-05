@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--gray);
+
+    .logo {
+        width: 130px;
+
+        a {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+
+        .search-input {
+            position: relative;
+            margin-right: 50px;
+
+            input {
+                outline: none;
+                padding: 10px;
+                font-size: 12px;
+                width: 250px;
+                color: var(--gray);
+                border-radius: 5px;
+                border: 1px solid var(--broun);
+
+                &::placeholder {
+                    color: var(--broun);
+                }
+            }
+
+            .search-icon {
+                position: absolute;
+                right: 1px;
+                top: 50%;
+                transform: translate(0, -50%);
+                color: var(--white);
+                background: var(--broun);
+                padding: 5px;
+                border-radius: 0 2px 2px 0;
+            }
+        }
+
+        .menu-right {
+            .herbal {
+                display: flex;
+                justify-content: flex-end;
+
+                ol {
+                    display: flex;
+                    align-items: center;
+
+                    li {
+                        padding: 10px;
+
+                        a {
+                            color: var(--white);
+                            padding: 5px 10px;
+                            background: var(--broun);
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    padding: 5px;
+
+                    &:last-child {
+                        padding-right: 0;
+
+                    }
+
+                    a {
+                        color: var(--green);
+                        padding: 5px 10px;
+                        transition: 0.5s all ease;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background: var(--broun);
+                            color: var(--white);
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+
+
+}

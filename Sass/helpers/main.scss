@@ -1,0 +1,283 @@
+.slider-background {
+    .slider {
+        position: relative;
+
+        >img {
+            width: 100%;
+            height: calc(100vh - 128px);
+            display: block;
+        }
+
+        .slider-text {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+
+            h1 {
+                font-size: 40px;
+                font-weight: 600;
+                padding-bottom: 10px;
+                color: var(--broun);
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 500;
+                color: var(--broun);
+            }
+
+            .slider-bottom-img {
+                margin-top: 30px;
+
+                img {
+                    width: 700px;
+                }
+            }
+        }
+    }
+}
+
+
+.all-product {
+    margin-top: 100px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >li {
+            padding: 10px 20px;
+            background: var(--broun);
+            color: var(--white);
+            border-radius: 5px;
+            margin: 0 10px;
+
+        }
+    }
+}
+
+.top-sellers {
+    text-align: center;
+    margin-top: 100px;
+
+    h2 {
+        font-size: 30px;
+        color: var(--broun);
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            width: calc(25% - 20px);
+            margin-top: 20px;
+
+            .sellers-img {
+
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            h4 {
+                color: var(--broun);
+                font-size: 20px;
+                padding: 10px 0;
+
+            }
+
+            p {
+                color: var(--gray-sads);
+            }
+
+            .sellers-btn {
+                a {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: var(--white);
+                    font-size: 18px;
+                    background: var(--green);
+                    margin-top: 20px;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        background: var(--broun);
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+}
+
+.product {
+    text-align: center;
+    margin-top: 50px;
+
+    ul {
+        display: flex;
+
+        justify-content: space-between;
+
+        li {
+            width: calc(25% - 20px);
+            margin-top: 20px;
+
+            .product-img {
+                padding: 25px;
+                background: var(--broun);
+                border-radius: 5PX;
+                margin: auto;
+
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+            h4 {
+                color: var(--broun);
+                font-size: 20px;
+                padding: 10px 0;
+
+            }
+
+            p {
+                color: var(--gray-sads);
+            }
+
+            .product-btn {
+                a {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: var(--white);
+                    font-size: 18px;
+                    background: var(--green);
+                    margin-top: 20px;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        background: var(--broun);
+                    }
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+
+.breast-product {
+
+    text-align: center;
+    margin-top: 80px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            width: calc(25% - 20px);
+            position: relative;
+
+        .breast-img{
+            overflow: hidden;
+
+            a {
+                img {
+                    width: 100%;
+                    display: block;
+                transition: 3s all ease;
+                &:hover{
+                    scale: 1.2;
+                }
+                }
+            }
+        }
+
+
+
+            h4 {
+                color: var(--broun);
+                font-size: 20px;
+                padding: 10px 0;
+
+            }
+
+            p {
+                color: var(--gray-sads);
+            }
+
+            .breast-btn {
+                a {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    color: var(--white);
+                    font-size: 18px;
+                    background: var(--green);
+                    margin-top: 20px;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        background: var(--broun);
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+
+}
+
+.jgs-healthcare{
+text-align: center;
+margin-top: 100px;
+color: var(--broun);
+p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 25%;
+    margin: auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    li{
+        margin-top: 20px;
+width: calc(25% - 20px);
+.healthcare-img{
+    width: 150px;
+    margin: auto;
+    img{
+        width: 100%;
+    }
+}
+h4{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+    }
+}
+}
